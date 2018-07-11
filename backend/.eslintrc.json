@@ -1,0 +1,17 @@
+{
+  "extends": "airbnb-base",
+  "env": {
+    "mocha": true
+  },
+  "plugins": ["chai-friendly"],
+  "rules": {
+    "chai-friendly/no-unused-expressions": 2,
+    "camelcase": "off",
+    "no-unused-vars": [
+      "error",
+      {
+        "argsIgnorePattern": "^_"
+      }
+    ]
+  }
+}
